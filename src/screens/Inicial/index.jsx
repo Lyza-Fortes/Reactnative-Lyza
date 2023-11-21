@@ -8,7 +8,7 @@ export const Inicial = () => {
   return (
     <SafeAreaView style={styles.tudo}>
       <View style={styles.containerLogo}>
-        <Image source={require('../../../assets/logo96.png')}/>
+        <Image source={require('../../../assets/logo72.png')}/>
       </View>
       <View style={styles.containerEntrar}>
         <TouchableOpacity style={styles.btnEntrarN} onPress={()=>{navigation.navigate('Login')}}>

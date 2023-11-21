@@ -16,17 +16,18 @@ import { StyleSheet } from "react-native";
     flex: 0.6,
     justifyContent: 'center',
     alignItems: 'center',
-    width: '90%',
+    width: '94%',
    },
    btnEntrarN:{
     backgroundColor: '#fff',
     borderRadius: 5,
     width:'100%',
-    padding: 15,
+    padding: 12.5,
    },
    textoN:{
     color: '#050505',
     textAlign:'center',
+    fontWeight: '400',
    },
    containerInstrucao:{
     paddingHorizontal: 4
@@ -41,8 +42,8 @@ import { StyleSheet } from "react-native";
     backgroundColor:'#201f24',
     borderRadius: 5,
     width:'100%',
-    padding: 15,
-    marginTop: 40,
+    padding: 12.5,
+    marginTop: 34,
    },
    textoE:{
     color:'#fff',
@@ -52,10 +53,10 @@ import { StyleSheet } from "react-native";
     color: '#acabb0',
     textAlign: 'center',
     marginTop: 16,
-    fontSize: 13.8,
+    fontSize: 14,
    },
    textoLink:{
-    color:'#5d82bc',
+    color:'#488fcb',
     textDecorationLine: 'underline',
    },
    problemas:{
