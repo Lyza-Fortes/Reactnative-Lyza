@@ -1,15 +1,17 @@
 import { View, Text, SafeAreaView, StyleSheet, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import {styles}from './style'
+import { useNavigation } from '@react-navigation/native'
 
 export const Inicial = () => {
+  const navigation = useNavigation()
   return (
     <SafeAreaView style={styles.tudo}>
       <View style={styles.containerLogo}>
         <Image source={require('../../../assets/logo96.png')}/>
       </View>
       <View style={styles.containerEntrar}>
-        <TouchableOpacity style={styles.btnEntrarN}>
+        <TouchableOpacity style={styles.btnEntrarN} onPress={()=>{navigation.navigate('Login')}}>
           <Text style={styles.textoN}>
             ENTRAR COM GITHUB
           </Text>

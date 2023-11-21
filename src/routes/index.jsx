@@ -21,6 +21,9 @@ export const Rotas = () => {
             <Stack.Screen 
                 name='Login'
                 component={Login}
+                options={{
+                  headerShown: false
+                }}
             />
         </Stack.Navigator>
     </NavigationContainer>
